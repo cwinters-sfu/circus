@@ -37,7 +37,7 @@ parameters:
     nines_text.trim_length: 50
 
     # where to store uploaded images
-    clipping_img_dir: '%kernel.project_dir%/web/images/clippings'
+    clipping_img_dir: '%kernel.project_dir%/images/clippings'
     clipping_img_prefix: images/clippings/
     clipping_thumb_width: 320
     clipping_thumb_height: 240

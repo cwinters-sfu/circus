@@ -9,6 +9,10 @@
         $('.panzoom').each(function () {
             var $parent = $(this);
             var img = $parent.children('img')[0];
+
+            // Catherine temp: Adjust src on dev.
+            $(img).attr('src', $(img).attr('src').replace('/circus/web', 'https://dhil.lib.sfu.ca/circus'));
+
             var scale = initialScale(img, $parent);
             var $pz = $(img).panzoom({
                 maxScale: 2.0,
